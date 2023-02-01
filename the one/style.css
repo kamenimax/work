@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.navbar{
+    display: flex;
+    background-color: rgb(38, 184, 237);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    
+}
+.logo{
+    color:white;
+    cursor:pointer
+}
+.mainbarnavigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform:capitalize;
+    
+}
+.mainbarnavigation ul{
+    display: flex;
+}
+.mainbarnavigation ul li{
+    margin-left: 3rem;
+}.btn{
+    display: flex;
+    color: aliceblue;
+    padding: 10px;
+    border: none;
+    font-size: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    border-radius: 20px;;
+    color:white;
+    background-color: rgb(140, 222, 240);
+    padding: 8px;
+    cursor: pointer;
+    font-size: 17px;
+    border-color:rgb(140, 222, 240) ;
+}
+
+#titre-formulaire{
+    font-size: 40px;
+    color:blue;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 10px 10px 10px 10px;
+    margin-top:0px;
+    margin-left:30px;
+
+}
+form{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.contenu-champ{
+   display:flex;
+   flex-direction: column;
+   align-items: flex start;
+   justify-content: flex start;
+   margin : 12px ;
+   
+} 
+.contenu-champ label{
+   margin-bottom :6px;
+   font-size : 22px;
+    
+}
+.contenu-champ input{
+   padding:12px;
+   width:360px;
+   font-size:16px;
+   border:1px solid #eaeaea;
+   border-radius: 8px;
+}
+.button{
+   padding:10px;
+   width:80px;
+   font-size:20px;
+   border-radius: 8px;
+   font-size:14px;
+   font-weight : 500;
+   color: #fff;
+   background-color:#6e0ead;
+   border : none;
+   margin-left:12px;
+
+}
+form{
+   display: flex;
+   align-items:flex-start;
+   flex-direction: column;
+   padding-left :40px;
+
+}
+label{
+   color: blue;
+   
+}
+.formulaire{
+   margin-top: 55px; 
+   background-color: rgb(248, 241, 232);
+    
+}
+
+
